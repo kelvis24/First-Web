@@ -6,10 +6,18 @@
     <title> Green Book</title>
 
     <style>
+        body {
+            margin: 0;
+        }
+        
         h1.title {
+            border: 10px solid white;
+            text-align: center;
+            padding: 20px;
             color: aliceblue;
             font-size: 90px;
             position: absolute;
+            /*transform: translate(-50%, -50%);*/
             left: 500px;
             top: 200px;
         }
@@ -19,7 +27,7 @@
             font-size: 20px;
             position: absolute;
             left: 580px;
-            top: 330px;
+            top: 355px;
         }
         
         p.copyright {
@@ -48,10 +56,10 @@
         
         .bg1 {
             background-image: url(https://media.vanityfair.com/photos/5c0ef38ef1a5a50e00b020ee/master/pass/Green-Book-Truth-Theme.jpg);
-            /* Full height */
+            background-color: transparent;
             height: 100%;
-            /* Center and scale the image nicely */
             background-position: center;
+            background-attachment: fixed;
             background-repeat: no-repeat;
             background-size: cover;
         }
