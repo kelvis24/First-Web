@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.title {
+    border: 10px solid white;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    font-size: 90px;
+    position: absolute;
+    /*transform: translate(-50%, -50%);*/
+    left: 500px;
+    top: 200px;
+}
+
+.authors {
+    color: aliceblue;
+    font-size: 20px;
+    position: absolute;
+    left: 580px;
+    top: 355px;
+}
+
+.copyright {
+    color: aliceblue;
+    position: absolute;
+    font-size: 10px;
+    left: 1200px;
+    top: 625px;
+}
+
+.heading {
+    color: aliceblue;
+    position: absolute;
+    font-size: 30px;
+    left: 10px;
+    top: 0px;
+}
+
+p.otherlinks {
+    color: white;
+    position: absolute;
+    font-size: 17px;
+    right: 10px;
+    top: 0px;
+}
+
+.page1,
+.page2,
+.page3,
+.page4,
+.page5,
+.page6 {
+    color: white;
+}
+
+p#space {
+    height: 1000px;
+}
+
+.bg1 {
+    background-image: url(https://media.vanityfair.com/photos/5c0ef38ef1a5a50e00b020ee/master/pass/Green-Book-Truth-Theme.jpg);
+    background-color: transparent;
+    height: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*position: relative;*/
+}
+
+.bg2 {
+    background-image: url(https://www.biography.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTYwNDY1ODY0MTYyODEzMzAw/green-book-from-left-mahershala-ali-viggo-mortensen-2018--universal-courtesy-everett-collection.jpg);
+    background-color: blue;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.bg3 {
+    background-image: url(https://resizing.flixster.com/ZfsiWqwXNLzr-3hSJD0q96GnaGQ=/fit-in/300x533/v1.bjsyMDE5NzQyO2o7MTg0Mjg7MTIwMDszNDI0OzIwMzA);
+    background-color: blue;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
