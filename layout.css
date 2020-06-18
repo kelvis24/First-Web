@@ -3,16 +3,76 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.title {
+.title1 {
     border: 10px solid white;
     text-align: center;
     padding: 20px;
-    color: aliceblue;
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    /*transform: translate(-50%, -50%);*/
+    left: 450px;
+    top: 200px;
+}
+
+.title2 {
+    border: 10px solid white;
+    text-align: center;
+    padding: 20px;
+    color: white;
     font-size: 90px;
     position: absolute;
     /*transform: translate(-50%, -50%);*/
     left: 500px;
     top: 200px;
+}
+
+.title3 {
+    border: 10px solid white;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    /*transform: translate(-50%, -50%);*/
+    left: 400px;
+    top: 150px;
+}
+
+.title4 {
+    border: 10px solid white;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    /*transform: translate(-50%, -50%);*/
+    left: 300px;
+    top: 100px;
+}
+
+.title5 {
+    border: 10px solid white;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    /*transform: translate(-50%, -50%);*/
+    left: 100px;
+    top: 200px;
+}
+
+.title6 {
+    border: 10px solid white;
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 90px;
+    position: absolute;
+    /*transform: translate(-50%, -50%);*/
+    left: 450px;
+    top: 100px;
 }
 
 .authors {
@@ -24,11 +84,10 @@ body {
 }
 
 .copyright {
-    color: aliceblue;
-    position: absolute;
+    color: black;
     font-size: 10px;
-    left: 1200px;
-    top: 625px;
+    position: bottom;
+    float: right;
 }
 
 .heading {
@@ -62,7 +121,7 @@ p#space {
 
 .bg1 {
     background-image: url(https://media.vanityfair.com/photos/5c0ef38ef1a5a50e00b020ee/master/pass/Green-Book-Truth-Theme.jpg);
-    background-color: transparent;
+    background-color: white;
     height: 100%;
     background-position: center;
     background-attachment: fixed;
@@ -73,7 +132,18 @@ p#space {
 
 .bg2 {
     background-image: url(https://www.biography.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cg_faces:center%2Cq_auto:good%2Cw_768/MTYwNDY1ODY0MTYyODEzMzAw/green-book-from-left-mahershala-ali-viggo-mortensen-2018--universal-courtesy-everett-collection.jpg);
-    background-color: blue;
+    background-color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-blend-mode: darken;
+}
+
+.bg3 {
+    background-image: url(https://api.time.com/wp-content/uploads/2018/11/green-book-mahershala-ali-top-10-movie-performance-best-of-culture-2018.jpg);
+    background-color: white;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,12 +151,33 @@ p#space {
     height: 100%;
 }
 
-.bg3 {
-    background-image: url(https://resizing.flixster.com/ZfsiWqwXNLzr-3hSJD0q96GnaGQ=/fit-in/300x533/v1.bjsyMDE5NzQyO2o7MTg0Mjg7MTIwMDszNDI0OzIwMzA);
-    background-color: blue;
+.bg4 {
+    background-image: url(https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_1246/https://pianopiano.com/wp-content/uploads/2019/02/screen-shot-2019-02-26-at-6.52.36-pm.png);
+    background-color: white;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100%;
+}
+
+.bg5 {
+    background-image: url(https://pmcdeadline2.files.wordpress.com/2018/12/8U02_D006_01014_1012R_COMP.jpg?w=1024&h=682);
+    background-color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+
+.bg6 {
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/green-book-movie-lead-1542737449.jpg?resize=768:*);
+    background-color: white;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    background-blend-mode: darken;
 }
