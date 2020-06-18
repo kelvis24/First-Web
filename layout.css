@@ -115,7 +115,7 @@ p.otherlinks {
     color: white;
 }
 
-p#space {
+#space {
     height: 1000px;
 }
 
@@ -180,4 +180,17 @@ p#space {
     background-position: center;
     height: 100%;
     background-blend-mode: darken;
+}
+
+.p1 {
+    float: right;
+}
+
+.sbg1 {
+    background-attachment: fixed;
+    background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/green-book-movie-lead-1542737449.jpg?resize=768:*);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
 }
