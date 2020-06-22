@@ -203,3 +203,30 @@ p.otherlinks {
     background-size: cover;
     height: 250px;
 }
+
+.normalP {
+    margin-top: 50px;
+    /*margin-bottom: 25px;*/
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.pfloatR {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pfloatL {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
