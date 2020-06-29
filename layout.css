@@ -4,6 +4,10 @@ body {
     /* text-align, background-color, font-size*/
 }
 
+nav {
+    display: block;
+}
+
 .title1 {
     border: 10px solid white;
     text-align: center;
