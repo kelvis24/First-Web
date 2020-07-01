@@ -205,7 +205,7 @@ p.otherlinks {
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-rp4tRlskqOFY6vbtbFSgK9oaCQA01HDMGwrZU3MdYSIWpcTc&usqp=CAU);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: unset;
     height: 250px;
 }
 
