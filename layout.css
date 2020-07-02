@@ -103,12 +103,12 @@ nav {
     top: 0px;
 }
 
-p.otherlinks {
+.otherlinks {
     color: white;
     position: absolute;
     font-size: 17px;
     right: 10px;
-    top: 0px;
+    top: 25px;
 }
 
 .page1,
