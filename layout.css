@@ -279,6 +279,11 @@ nav a.active {
     color: black;
 }
 
+nav a:active {
+    background-color: grey;
+    color: black;
+}
+
 .content {
     padding: 0px;
 }
