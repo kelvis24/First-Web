@@ -15,52 +15,6 @@
     <link rel="stylesheet" href="C:\Users\elvis\OneDrive\Desktop\web\First-Web\layout.css">
 
 
-    <style>
-        #navbar {
-            overflow: hidden;
-            background-color: black;
-            z-index: 5;
-            height: 40px;
-            width: 1000px;
-        }
-        
-        #navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 0px 0px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-        
-        #navbar a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        
-        #navbar a.active {
-            background-color: #4CAF50;
-            color: white;
-        }
-        
-        .content {
-            padding: 0px;
-        }
-        
-        .sticky {
-            position: fixed;
-            top: 0;
-            width: 100%;
-        }
-        
-        .sticky+.content {
-            padding-top: 60px;
-        }
-    </style>
-
-
-
 
 </head>
 
@@ -68,8 +22,8 @@
 
     <h2 class="heading"> MA4Site</h2>
 
-    <div id="navbar">
-        <a href="file:///C:/Users/elvis/OneDrive/Desktop/web/First-Web/Home.html" style="text-decoration: none;"> <span class="page1">Home</span></a> &nbsp;
+    <nav id="otherlinks">
+        <a class="active" href="file:///C:/Users/elvis/OneDrive/Desktop/web/First-Web/Home.html" style="text-decoration: none;"> <span class="page1">Home</span></a> &nbsp;
         <a href="file:///C:/Users/elvis/OneDrive/Desktop/web/First-Web/Summary.html" style="text-decoration: none;"> <span class="page2">Summary</span>
         </a> &nbsp;
         <a href="file:///C:/Users/elvis/OneDrive/Desktop/web/First-Web/Professional%20Reviews.html" style="text-decoration: none;"> <span class="page3">Professional Reviews</span>
@@ -81,7 +35,7 @@
         <a href="file:///C:/Users/elvis/OneDrive/Desktop/web/First-Web/Citations%20and%20References.html" style="text-decoration: none;"> <span class="page6">Citations and References.</span>
         </a> &nbsp;
 
-    </div>
+    </nav>
 
     <div class="content">
         <header>
@@ -181,7 +135,7 @@
             myFunction()
         };
 
-        var navbar = document.getElementById("navbar");
+        var navbar = document.getElementById("otherlinks");
         var sticky = navbar.offsetTop;
 
         function myFunction() {

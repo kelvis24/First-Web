@@ -14,6 +14,7 @@ body {
     /*transform: translate(-50%, -50%);*/
     left: 450px;
     top: 200px;
+    z-index: 1;
 }
 
 .title2 {
@@ -26,6 +27,7 @@ body {
     /*transform: translate(-50%, -50%);*/
     left: 500px;
     top: 200px;
+    z-index: 1;
 }
 
 .title3 {
@@ -38,6 +40,7 @@ body {
     /*transform: translate(-50%, -50%);*/
     left: 400px;
     top: 150px;
+    z-index: 1;
 }
 
 .title4 {
@@ -50,6 +53,7 @@ body {
     /*transform: translate(-50%, -50%);*/
     left: 300px;
     top: 100px;
+    z-index: 1;
 }
 
 .title5 {
@@ -62,6 +66,7 @@ body {
     /*transform: translate(-50%, -50%);*/
     left: 100px;
     top: 200px;
+    z-index: 1;
 }
 
 .title6 {
@@ -178,7 +183,7 @@ body {
 .bg6 {
     background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/green-book-movie-lead-1542737449.jpg?resize=768:*);
     background-color: white;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -246,6 +251,12 @@ body {
 nav {
     overflow: hidden;
     background-color: transparent;
+    color: white;
+    position: absolute;
+    font-size: 17px;
+    right: 10px;
+    top: 25px;
+    z-index: 10;
 }
 
 nav a {
@@ -276,6 +287,7 @@ nav a.active {
     position: fixed;
     top: 0;
     width: 100%;
+    background-color: black;
 }
 
 .sticky+.content {
