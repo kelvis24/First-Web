@@ -13,6 +13,64 @@
 
     <link rel="stylesheet" href="C:\Users\elvis\OneDrive\Desktop\web\First-Web\layout.css">
 
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .header {
+            text-align: center;
+            padding: 32px;
+        }
+        
+        .row {
+            display: -ms-flexbox;
+            /* IE 10 */
+            display: flex;
+            -ms-flex-wrap: wrap;
+            /* IE 10 */
+            flex-wrap: wrap;
+            padding: 0 4px;
+        }
+        /* Create two equal columns that sits next to each other */
+        
+        .column {
+            -ms-flex: 50%;
+            /* IE 10 */
+            flex: 50%;
+            padding: 0 4px;
+        }
+        
+        .column img {
+            margin-top: 8px;
+            vertical-align: middle;
+        }
+        /* Style the buttons */
+        
+        .btn {
+            border: none;
+            outline: none;
+            padding: 10px 16px;
+            background-color: #f1f1f1;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        
+        .btn:hover {
+            background-color: #ddd;
+        }
+        
+        .btn.active {
+            background-color: #666;
+            color: white;
+        }
+    </style>
+
 
 </head>
 
@@ -47,6 +105,56 @@
             </div>
             <div id="space">
                 <!-- Gonna make a Gallery View here and learn how to properly caption Images -->
+
+
+                <!-- Header -->
+                <div class="header" id="myHeader">
+                    <h1>Image Grid</h1>
+                    <p>Click on the buttons to change the grid view.</p>
+                    <button class="btn" onclick="one()">1</button>
+                    <button class="btn active" onclick="two()">2</button>
+                    <button class="btn" onclick="four()">4</button>
+                </div>
+
+                <!-- Photo Grid -->
+                <div class="row">
+                    <div class="column">
+                        <img src="https://i.pinimg.com/236x/64/d5/7f/64d57fb3fa9375514e4955e567713268.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/77/c8/8d/77c88d7ef9a2f46fb91b64876821e190.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/aa/ac/c2/aaacc20c60d569e7e3a4a314fdc0e198.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/b0/54/be/b054be8d025bba6d61f8f3c219e23487.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/44/72/b8/4472b8f396b02868e315ac0352efea6f.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/b7/dc/9c/b7dc9cb11e59276df76b2cb8fe442c47.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/b3/46/02/b346023e86cfdbd00d785401f5775df2.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="https://i.pinimg.com/236x/b3/54/6e/b3546ecf065b2df6c962384e0a90d4c5.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/f4/2d/7e/f42d7ef12832488a64500358f0ba728f.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/77/36/f9/7736f9019b6acf6590b18a95860e2704.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/e6/cc/42/e6cc427bce64c72ef213ed1fe755ced0.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/ca/51/20/ca512009bf6bba7415f65f1ed82408af.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/ab/10/be/ab10bebc740336e1def58b02b75d3fad.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="https://i.pinimg.com/236x/f7/f6/02/f7f602ad1424c3f3c80e650c87f2d59e.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/3f/8b/d9/3f8bd9d39e055d33b68bfef792e0f95b.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/52/bd/0c/52bd0c94a865bdbd6773ad120e6e294c.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/474x/0b/50/b2/0b50b2067124d160dfc065a04a682831.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/1a/94/39/1a943909e30ddae50fca170e9fb4c606.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/69/65/b0/6965b09cb15196c788e1fb84f4b06c91.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/4e/d9/9e/4ed99ea2e14687d2405ba9954b97a1f1.jpg" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="https://i.pinimg.com/236x/7c/2d/42/7c2d42d3e30dde97bcbc24368931126b.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/87/9a/56/879a56829bcbd7fbdb7d78fecbb7d8a9.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/29/31/2c/29312c0c54b3d19dd203cc5e5d3df747.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/6a/af/80/6aaf80d93becddd8f6552f6d4f7f1114.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/68/cd/fa/68cdfadd8a59751f1b9f679ad699668b.jpg" style="width:100%">
+                        <img src="https://i.pinimg.com/236x/5c/49/04/5c490438ad23136a46bc51639dd949d0.jpg" style="width:100%">
+                    </div>
+                </div>
+
+
             </div>
 
 
@@ -73,6 +181,47 @@
             } else {
                 navbar.classList.remove("sticky");
             }
+        }
+
+        // Get the elements with class="column"
+        var elements = document.getElementsByClassName("column");
+
+        // Declare a loop variable
+        var i;
+
+        // Full-width images
+        function one() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.msFlex = "100%"; // IE10
+                elements[i].style.flex = "100%";
+            }
+        }
+
+        // Two images side by side
+        function two() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.msFlex = "50%"; // IE10
+                elements[i].style.flex = "50%";
+            }
+        }
+
+        // Four images side by side
+        function four() {
+            for (i = 0; i < elements.length; i++) {
+                elements[i].style.msFlex = "25%"; // IE10
+                elements[i].style.flex = "25%";
+            }
+        }
+
+        // Add active class to the current button (highlight it)
+        var header = document.getElementById("myHeader");
+        var btns = header.getElementsByClassName("btn");
+        for (var i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", function() {
+                var current = document.getElementsByClassName("active");
+                current[0].className = current[0].className.replace(" active", "");
+                this.className += " active";
+            });
         }
     </script>
 </body>
